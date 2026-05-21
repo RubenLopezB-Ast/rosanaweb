@@ -388,33 +388,86 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Tu nombre"/>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Tu Email"/>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                        <option>¿Sobre qué?</option>
-                                        <option>Presentaciones</option>
-                                        <option>Firmas</option>
-                                        <option>Eventos</option>
-                                        <option>Otros</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Mensaje" required="required"></textarea>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Enviar</button>
-                            </div>
-                        </form>
+                        <form action="https://formsubmit.co/hola@rosanaminguez.com" method="POST">
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_next" value="https://rosanaminguez.com/gracias.html">
+
+    <div class="form-row">
+
+        <div class="form-group col-sm-6">
+
+            <input
+                type="text"
+                name="nombre"
+                class="form-control bg-secondary border-0 py-4 px-3"
+                placeholder="Tu nombre"
+                required
+            >
+
+        </div>
+
+        <div class="form-group col-sm-6">
+
+            <input
+                type="email"
+                name="email"
+                class="form-control bg-secondary border-0 py-4 px-3"
+                placeholder="Tu Email"
+                required
+            >
+
+        </div>
+
+    </div>
+
+    <div class="form-row">
+
+        <div class="form-group col-sm-6">
+
+            <select
+                name="tema"
+                class="form-control bg-secondary border-0"
+                style="height: 52px;"
+            >
+
+                <option>¿Sobre qué?</option>
+                <option>Presentaciones</option>
+                <option>Firmas</option>
+                <option>Eventos</option>
+                <option>Otros</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="form-group">
+
+        <textarea
+            name="mensaje"
+            class="form-control bg-secondary border-0 py-2 px-3"
+            rows="5"
+            placeholder="Mensaje"
+            required
+        ></textarea>
+
+    </div>
+
+    <div>
+
+        <button
+            class="btn btn-primary font-weight-bold py-3 px-5"
+            type="submit"
+        >
+            Enviar
+        </button>
+
+    </div>
+
+</form>
                     </div>
                 </div>
             </div>
@@ -438,7 +491,7 @@
             </div>
             <div class="d-flex justify-content-center py-2">
                 <span class="px-3">|</span>
-                <p class="text-white" href="#">info@rosana.com</p>
+                <p class="text-white" href="#">hola@rosanaminguez.com</p>
                 <span class="px-3">|</span>
                 
             </div>
