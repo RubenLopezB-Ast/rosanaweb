@@ -9902,3 +9902,51 @@ a.text-dark:hover, a.text-dark:focus {
     }
 }
 
+.img-event-custom {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.event-divider {
+    width: 80px;
+    height: 3px;
+    background-color: #ff6b00;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+
+.event-content {
+    width: 350px;
+    max-width: 100%;
+}
+
+.event-content p,
+.event-content h4 {
+    width: 100%;
+}
+
+.event-left {
+    margin-right: 30px;
+    text-align: right;
+}
+
+.event-right {
+    margin-left: 30px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .event-left,
+    .event-right {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
