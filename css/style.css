@@ -9980,4 +9980,79 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+/* COOKIES */
+
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 900px;
+    background: rgba(212, 175, 55, 0.88);
+    backdrop-filter: blur(10px);
+    padding: 18px 25px;
+    border-radius: 18px;
+    z-index: 9999;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    animation: fadeUp 0.5s ease;
+}
+
+.cookie-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cookie-content p {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.cookie-content button {
+    background: white;
+    color: #C89B2C;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cookie-content button:hover {
+    background: #f5f5f5;
+    transform: scale(1.05);
+}
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translate(-50%, 30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cookie-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cookie-content button {
+        width: 100%;
+    }
+}
+
+
+
 

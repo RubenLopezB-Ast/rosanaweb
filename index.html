@@ -521,6 +521,43 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/events.js"></script>
+
+    <!-- Cookies Banner -->
+<div id="cookie-banner" class="cookie-banner">
+
+    <div class="cookie-content">
+
+        <p>
+            🍪 Utilizamos cookies para mejorar tu experiencia, analizar el tráfico
+            y ofrecerte una navegación más personalizada en la web de Rosana.
+        </p>
+
+        <button id="accept-cookies">
+            Aceptar
+        </button>
+
+    </div>
+
+</div>
+
+<script>
+
+const cookieBanner = document.getElementById('cookie-banner');
+const acceptCookies = document.getElementById('accept-cookies');
+
+if(localStorage.getItem('cookiesAccepted')) {
+    cookieBanner.style.display = 'none';
+}
+
+acceptCookies.addEventListener('click', () => {
+
+    localStorage.setItem('cookiesAccepted', true);
+
+    cookieBanner.style.display = 'none';
+
+});
+
+</script>
     
 </body>
 
