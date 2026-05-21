@@ -9950,3 +9950,34 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 
+#event .event-content {
+    width: 350px;
+}
+
+#event .event-left {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#event .event-right {
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+#event .img-event-custom {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    display: block;
+}
+
+#event .event-divider {
+    width: 80px;
+    height: 3px;
+    background-color: #E47A2E;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+

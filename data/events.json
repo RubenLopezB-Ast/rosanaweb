@@ -1,0 +1,66 @@
+[
+  {
+    "titulo": "Firma",
+    "ciudad": "Alfaro - La Rioja",
+    "hora": "10:00AM - 21:00PM",
+    "fecha": "2026-06-20",
+    "imagen": "img/CartelAlfaro2026.png",
+    "alt": "Firma de libros de Rosana Mínguez en Alfaro La Rioja",
+    "seoTitle": "Firma de libros en Alfaro | Rosana Mínguez",
+    "seoDescription": "Rosana Mínguez participa en una firma de libros en Alfaro, La Rioja, presentando Un océano entre cerezos.",
+    "keywords": "Rosana Mínguez, firma de libros, Alfaro, La Rioja, novela romántica",
+    "slug": "firma-libros-alfaro"
+  },
+
+  {
+    "titulo": "Encuentro",
+    "ciudad": "Zaragoza",
+    "hora": "09:00AM - 17:00PM",
+    "fecha": "2026-06-25",
+    "imagen": "img/CartelRosanaUltimoSi.png",
+    "alt": "Encuentro literario con Rosana Mínguez en Zaragoza",
+    "seoTitle": "Encuentro literario en Zaragoza | Rosana Mínguez",
+    "seoDescription": "Encuentro con lectores y presentación de la novela Un océano entre cerezos en Zaragoza.",
+    "keywords": "Rosana Mínguez, Zaragoza, encuentro literario, presentación libro",
+    "slug": "encuentro-zaragoza"
+  },
+
+  {
+    "titulo": "Firma",
+    "ciudad": "Zaragoza",
+    "hora": "17:00PM - 21:00PM",
+    "fecha": "2026-07-01",
+    "imagen": "img/cartel2.png",
+    "alt": "Firma de libros de Rosana Mínguez en Zaragoza",
+    "seoTitle": "Firma de libros en Zaragoza | Rosana Mínguez",
+    "seoDescription": "Firma de libros y encuentro con lectores en Zaragoza.",
+    "keywords": "firma de libros Zaragoza, Rosana Mínguez, autora española",
+    "slug": "firma-zaragoza"
+  },
+
+  {
+    "titulo": "Presentación",
+    "ciudad": "Zaragoza",
+    "hora": "17:00PM - Fin",
+    "fecha": "2026-07-10",
+    "imagen": "img/cartel1.png",
+    "alt": "Presentación de Un océano entre cerezos en Zaragoza",
+    "seoTitle": "Presentación del libro en Zaragoza | Rosana Mínguez",
+    "seoDescription": "Presentación oficial de Un océano entre cerezos en Zaragoza.",
+    "keywords": "presentación libro Zaragoza, Rosana Mínguez, novela romántica",
+    "slug": "presentacion-zaragoza"
+  },
+
+  {
+    "titulo": "Próximamente",
+    "ciudad": "Nueva ubicación",
+    "hora": "Pendiente",
+    "fecha": "2026-08-01",
+    "imagen": "img/incognita.png",
+    "alt": "Próximo evento de Rosana Mínguez",
+    "seoTitle": "Próximo evento | Rosana Mínguez",
+    "seoDescription": "Muy pronto nuevos encuentros y firmas de Rosana Mínguez.",
+    "keywords": "próximos eventos Rosana Mínguez",
+    "slug": "proximo-evento"
+  }
+]
