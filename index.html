@@ -567,7 +567,27 @@ acceptCookies.addEventListener('click', () => {
 });
 
 </script>
-    
+
+<script>
+
+document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
+
+    link.addEventListener('click', () => {
+
+        const navbar = document.querySelector('.navbar-collapse');
+
+        if (navbar.classList.contains('show')) {
+
+            $('.navbar-collapse').collapse('hide');
+
+        }
+
+    });
+
+});
+
+</script>
+
 </body>
 
 </html>
