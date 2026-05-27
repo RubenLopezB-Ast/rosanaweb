@@ -63,18 +63,5 @@
     "seoDescription": "Presentación oficial de Un océano entre cerezos en Zaragoza.",
     "keywords": "presentación libro Zaragoza, Rosana Mínguez, novela romántica",
     "slug": "presentacion-zaragoza"
-  },
-
-  {
-    "titulo": "Próximamente",
-    "ciudad": "Nueva ubicación",
-    "hora": "Pendiente",
-    "fecha": "2026-08-01",
-    "imagen": "img/incognita.png",
-    "alt": "Próximo evento de Rosana Mínguez",
-    "seoTitle": "Próximo evento | Rosana Mínguez",
-    "seoDescription": "Muy pronto nuevos encuentros y firmas de Rosana Mínguez.",
-    "keywords": "próximos eventos Rosana Mínguez",
-    "slug": "proximo-evento"
   }
 ]
