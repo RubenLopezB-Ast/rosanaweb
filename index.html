@@ -50,22 +50,31 @@
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Inicio</a>
-                <a href="#about" class="nav-item nav-link">Sobre</a>
-                <a href="#story" class="nav-item nav-link">Publicaciones</a>
-                <a href="#gallery" class="nav-item nav-link">Galería</a>
-            </div>
-            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">Rosana <span class="text-primary"> </span> Mínguez</h1>
-            </a>
-            <div class="navbar-nav mr-auto py-0">
-                <a href="#event" class="nav-item nav-link">Eventos</a>
-                <a href="#rsvp" class="nav-item nav-link">Escríbeme</a>
-                <a href="#contact" class="nav-item nav-link">Contacta</a>
-            </div>
-        </div>
+
+<div class="collapse navbar-collapse flex-column" id="navbarCollapse">
+
+    <div class="navbar-nav d-flex flex-row justify-content-center flex-wrap py-0">
+
+        <a href="#home" class="nav-item nav-link active">Inicio</a>
+        <a href="#about" class="nav-item nav-link">Sobre</a>
+        <a href="#story" class="nav-item nav-link">Libros</a>
+        <a href="#gallery" class="nav-item nav-link">Galería</a>
+        <a href="#media" class="nav-item nav-link">Medios</a>
+        <a href="#event" class="nav-item nav-link">Eventos</a>
+        <a href="#contact" class="nav-item nav-link">Contacto</a>
+
+    </div>
+
+    <a href="index.html" class="navbar-brand d-none d-lg-block text-center mt-2">
+
+        <h1 class="font-secondary text-white mb-0">
+            Rosana Mínguez
+        </h1>
+
+    </a>
+
+</div>
+
     </nav>
     <!-- Navbar End -->
 
@@ -334,6 +343,118 @@
     </div>
     <!-- Gallery End -->
 
+    <!-- Media Start -->
+<div class="container-fluid py-5" id="media">
+
+    <div class="container py-5">
+
+        <div class="section-title position-relative text-center">
+
+            <h6 class="text-uppercase text-primary mb-3"
+                style="letter-spacing: 3px;">
+
+                Medios
+
+            </h6>
+
+            <h1 class="font-secondary display-4">
+
+                Rosana en los Medios
+
+            </h1>
+
+            <i class="fas fa-feather-alt text-dark"></i>
+
+        </div>
+
+        <div class="row">
+
+    <!-- Aragón Radio -->
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+        <div class="card border-0 shadow-sm h-100">
+
+            <img src="img/medios/AragonRadio.png"
+                 class="card-img-top media-logo"
+                 alt="Aragón Radio">
+
+            <div class="card-body text-center d-flex flex-column">
+
+                <h5 class="card-title">
+                    Aragón Radio
+                </h5>
+
+                <p class="card-text">
+                    Entrevista a Rosana Mínguez con motivo del lanzamiento de
+                    "Un océano entre cerezos".
+                </p>
+
+                <div class="mt-auto">
+
+                    <a href="https://www.cartv.es/aragonradio/podcast/emision/la-torre-de-babel-16-06-2026"
+                       target="_blank"
+                       class="btn btn-primary">
+
+                        Escuchar
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Aragón TV -->
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+        <div class="card border-0 shadow-sm h-100">
+
+            <img src="img/medios/aragonTv.png"
+                 class="card-img-top media-logo"
+                 alt="Aragón Televisión">
+
+            <div class="card-body text-center d-flex flex-column">
+
+                <h5 class="card-title">
+                    Aragón Televisión
+                </h5>
+
+                <p class="card-text">
+                    Rosana Mínguez en las noticias con motivo del lanzamiento de
+                    "Un océano entre cerezos".
+                </p>
+
+                <div class="mt-auto">
+
+                    <a href="https://youtu.be/8SlZKwi5kg8?si=Z0IbzhrNTqQNM-NS"
+                       target="_blank"
+                       class="btn btn-primary">
+
+                        Ver noticia
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    </div>
+
+</div>
+<!-- Media End -->
+
 
 <!-- Event Start -->
 <div class="container-fluid py-2" id="event">
@@ -508,12 +629,26 @@
 
             </div>
 
-            <p class="mb-4 texto-libro">
+            <p class="mb-4 texto-libro review-text">
 
-                “Una novela emocionante, profunda y llena de sensibilidad.
-                Me atrapó desde las primeras páginas.”
+    <span class="short-review">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas...
+    </span>
 
-            </p>
+    <span class="full-review d-none">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas y consiguió
+        transportarme completamente a la historia. Los personajes
+        son muy creíbles y la narrativa mantiene el interés
+        hasta el final.
+    </span>
+
+</p>
+
+<button class="btn btn-sm btn-primary review-btn">
+    Leer más
+</button>
 
             <h5 class="font-weight-bold mb-1">
                 Marta L.
@@ -548,12 +683,26 @@
 
             </div>
 
-            <p class="mb-4 texto-libro">
+            <p class="mb-4 texto-libro review-text">
 
-                “Rosana consigue transportar al lector a cada escenario.
-                Una historia muy humana y muy bien escrita.”
+    <span class="short-review">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas...
+    </span>
 
-            </p>
+    <span class="full-review d-none">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas y consiguió
+        transportarme completamente a la historia. Los personajes
+        son muy creíbles y la narrativa mantiene el interés
+        hasta el final.
+    </span>
+
+</p>
+
+<button class="btn btn-sm btn-primary review-btn">
+    Leer más
+</button>
 
             <h5 class="font-weight-bold mb-1">
                 Carlos R.
@@ -588,12 +737,26 @@
 
             </div>
 
-            <p class="mb-4 texto-libro">
+            <p class="mb-4 texto-libro review-text">
 
-                “Un océano entre cerezos deja huella.
-                Personajes reales y emociones auténticas.”
+    <span class="short-review">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas...
+    </span>
 
-            </p>
+    <span class="full-review d-none">
+        Una novela emocionante, profunda y llena de sensibilidad.
+        Me atrapó desde las primeras páginas y consiguió
+        transportarme completamente a la historia. Los personajes
+        son muy creíbles y la narrativa mantiene el interés
+        hasta el final.
+    </span>
+
+</p>
+
+<button class="btn btn-sm btn-primary review-btn">
+    Leer más
+</button>
 
             <h5 class="font-weight-bold mb-1">
                 Ana G.
@@ -706,6 +869,42 @@ document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
         if (navbar.classList.contains('show')) {
 
             $('.navbar-collapse').collapse('hide');
+
+        }
+
+    });
+
+});
+
+</script>
+<script>
+
+document.querySelectorAll('.review-btn').forEach(button => {
+
+    button.addEventListener('click', function() {
+
+        const review =
+            this.parentElement.querySelector('.review-text');
+
+        const shortText =
+            review.querySelector('.short-review');
+
+        const fullText =
+            review.querySelector('.full-review');
+
+        if (fullText.classList.contains('d-none')) {
+
+            fullText.classList.remove('d-none');
+            shortText.classList.add('d-none');
+
+            this.textContent = 'Leer menos';
+
+        } else {
+
+            fullText.classList.add('d-none');
+            shortText.classList.remove('d-none');
+
+            this.textContent = 'Leer más';
 
         }
 

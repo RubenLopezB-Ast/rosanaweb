@@ -10053,6 +10053,43 @@ a.text-dark:hover, a.text-dark:focus {
     }
 }
 
+/* ==========================
+   MEDIOS DE COMUNICACIÓN
+========================== */
+
+.media-logo{
+    height:180px;
+    object-fit:contain;
+    padding:20px;
+    background:#fff;
+}
+
+#media .card{
+    min-height:420px;
+    transition:all .3s ease;
+}
+
+#media .card:hover{
+    transform:translateY(-5px);
+}
+
+#media .card-title{
+    min-height:50px;
+    font-size:1.1rem;
+    font-weight:600;
+}
+
+#media .card-text{
+    min-height:80px;
+    font-size:0.95rem;
+}
+
+#media .btn{
+    min-width:120px;
+}
+
+
+
 
 
 
